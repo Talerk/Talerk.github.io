@@ -1,0 +1,27 @@
+.myCard {
+    background-color: black;
+    border: white 10px solid;
+    color: white;
+    max-height: 220px;
+    min-height: 220px;
+    max-width: 140px;
+    min-width: 140px;
+    margin: 15px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    outline-offset: -10px;
+}
+
+.myImg {
+   max-width: 140px;
+   min-width: 140px;
+   max-height: 200px; 
+   min-height: 200px;
+   object-fit: cover; 
+   border: none;
+}
